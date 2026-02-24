@@ -6,7 +6,6 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-import javax.sound.midi.Sequence;
 
 @Entity
 @Data
@@ -21,6 +20,6 @@ public class Question {
     private String option3;
     private String option4;
     private String rightAnswer;
-    private String difficultylevel;
+    private String difficultyLevel;
 
 }
